@@ -73,19 +73,106 @@ ITE coin 的用途，在于回馈新老玩家。前期会采用各种形式赠�
 至于其今后的实际流通价值。
 
 我们会努力去创造。
+
+## ITE coin 相关信息
+
+* 最大发行量：10亿
+* 采用按需发行的方式发行： 比如先给 ITE4 发行1000万，用于给玩家挖矿。
+* 首次仅发行1000万，仅用与给ITE4 游戏挖矿。
+
+代币相关信息可以通过以下命令查询：
+
+```
+cleos -u http://api.eosnewyork.io get currency balance itecointoken itesupernova ITECOIN
+cleos -u http://api.eosnewyork.io get currency stats itecointoken ITECOIN
+
+{
+  "ITECOIN": {
+    "supply": "10000000.0000 ITECOIN",
+    "max_supply": "1000000000.0000 ITECOIN",
+    "issuer": "itecointoken"
+  }
+}
+
+```
  
+ ITE coin 已经上线TP钱包资产列表，代币符号 ITECOIN，图标如下：
+ 
+![](https://ws1.sinaimg.cn/large/006tNbRwgy1fuohqs3107j30dw0dwtfv.jpg)
 
 ## ITE4 的上线时间
 
-秉承 ITE team 的风格，我们会花3倍于开发的时间，用于测试和安全审计。
 
-目前正在努力的测试。
+北京时间， 8月30号 20:00:00 
 
-月底前如期上线。
+时间戳： 1535630400
 
+开局时间确定的情况下，有N秒百分百拒绝转账效果，以及1分钟左右随机拒绝转账效果。大家看运气买入。
+
+本策略是用于防合约机器人快速入场，本策略由合约自动执行，详情请看  [ITE3](https://github.com/ITE-Organization/ite3)。
 
 ## 数值公开 和 经济推演
 
-敬请期待。
+第一局数值：
+
+总智子： 500000
+保证金： 5000 EOS
+工程难度： 85%
+毁灭难度： 20%
+单次充能、回收限制: 5000 智子 = 50 EOS
+EOS最大容量： 18000 EOS （没错，第一局18000 EOS进场就能结束，各位下手轻点）
+智子初始价格： 0.01 EOS
+智子最高价格： 0.21 EOS （最高价会随着毁灭进度下降）
+终极大奖最大值： 1800 EOS
+
+第二局数值：
+总智子： 550000
+保证金： 5500 EOS
+工程难度： 85%
+毁灭难度： 20%
+单次充能、回收限制: 5500 智子 = 55 EOS
+EOS最大容量： 20000 EOS （下手轻点）
+智子初始价格： 0.01 EOS
+智子最高价格： 0.21 EOS （最高价会随着毁灭进度下降）
+终极大奖最大值： 2000 EOS
+
+第三局数值：
+总智子： 600000
+保证金： 600 EOS
+工程难度： 85%
+毁灭难度： 20%
+单次充能、回收限制: 12000 智子 = 120 EOS
+EOS最大容量： 22000 EOS （下手轻点）
+智子初始价格： 0.01 EOS
+智子最高价格： 0.21 EOS （最高价会随着毁灭进度下降）
+终极大奖最大值： 2200 EOS  
+
+。。。。更多数据，有兴趣可以自行推演，全部数据都在链上，获取命令是：
+
+```
+cleos get table itesupernova itesupernova global
+cleos get table itesupernova itesupernova game
+
+```
+
+## 如何看待 ITE4
+
+**ITE4: supernova**  可以视为 ITE 生态下第一个成熟的项目。 它有以下几个显著的特色：
+
+* 第一个 ITE 生态下 通过 “[虫洞协议](https://github.com/ITE-Organization/ite-wormholes)” 不断向 [ITE3](https://github.com/ITE-Organization/ite3)  发起分红的项目
+* 第一个 ITE 生态下 “游戏挖矿” 项目。 玩 ITE 4，即可获得 ITE coin。ITE coin 可以自由流通转账，已经上线TP钱包。未来将上交易所。
+
+这是一个运行中涉及到6个以上智能合约交互运作的项目。在技术上，我们向更大的商业化DAPP迈向了一步。
+ITE生态，未来可期。
+
+## 后续 ITE 项目预告
+
+* ITE dice: 做 **真.概率随机游戏** 。代码开源。数据全部在链上透明可查。买入和开奖同步执行。 这是个庄家也会输盘，目前我们还输不太起。所以定位是小赌怡情盘，最大买入额暂定 10 EOS。
+
+* ITE dexchange:  bancor 协议正在引发一场革命。是发币、是ICO、是去中心化交易所、是种种你意想不到的运用。 ITE team 研究bancor已久，已经在多个项目中成功的运用bancor， **ITE dexchange** 将带来一个通用的 bancor 交易系统。 任何人，只要抵押EOS，即可上币。 从根本上解决小币种流通问题。我们将率先上 **ITE coin**， 也就是在 ITE3中玩游戏过程挖的币，将能够在 **ITE dexchange** 直接交易。 
+
+
+
+
 
 
