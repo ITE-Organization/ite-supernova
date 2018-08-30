@@ -7,7 +7,17 @@
 本文档，对ITE4的具体实现，做一个更详细的介绍。
 
 
-## ITE4 : supernova
+## ITE4 : supernova 主要信息
+
+* 官网: [https://ite.zone](https://ite.zone)
+* 游戏主页: [https://ite4.ite.zone](https://ite4.ite.zone)
+* 合约账号: [itesupernova](https://eosflare.io/account/itesupernova)
+* 哈希认证: [itesupernova](https://eospark.com/MainNet/contract/itesupernova)
+* 开源代码: [github](https://github.com/ITE-Organization/ite-supernova)
+* 交流群:  [discordapp](https://discord.gg/er4JYRP)
+* 邮件:  [itesourcecode@163.com](itesourcecode@163.com)
+
+## ITE4 : supernova 介绍
 
 ITE4 supernova , 超新星， 是 ITE1、ITE2 的延续。也是 “建门游戏” 的最终完结版。
 
